@@ -1,6 +1,11 @@
 # Game of Life 2D method
 # Copyright (C) 2024 Yan Peng <pydeoxy@gmail.com>
 
+# This code is for a GhPython Script component in Grasshopper with Rhino 7.
+# To use this code, just copy the whole content into a GhPython Script component,
+# and to change the INPUTs and OUTPUTs according to the Args and Returns.
+# Or, just use the gol_2d_points_example.gh file. 
+
 # This file is to generate a group of 2d x*y array of 0s and 1s,
 # representing the generations of dead and living cells based on the rules of Conway's Game of Life.
 # The first 2d array is the starting generation.
