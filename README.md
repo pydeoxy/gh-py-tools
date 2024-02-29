@@ -7,3 +7,5 @@ Original Python codes, the paired example GH files and screenshots will be publi
 Contents:
 1. gol_2d_points
    Points generated based on the rules of Conway's Game of Life.
+2. plt_pts
+   Best Fit Plane from Points.
