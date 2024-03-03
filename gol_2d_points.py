@@ -46,6 +46,8 @@ def create_array(x, y, n, seed=None):
   """
   if seed is not None:
     random.seed(seed)
+  if n > x*y:
+    raise ValueError('n must be smaller than x*y')
 
   # Create an empty array
   array = [[0 for _ in range(y)] for _ in range(x)]
