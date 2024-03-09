@@ -24,6 +24,10 @@ Returns:
     
 """
 
+ghenv.Component.Name = "plane_from_points"
+ghenv.Component.NickName = 'pln_pts'
+
+
 __author__ = "yan.peng"
 __version__ = "2024.02.29"
 
