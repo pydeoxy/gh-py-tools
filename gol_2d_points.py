@@ -36,6 +36,9 @@ Returns:
 __author__ = "yan.peng"
 __version__ = "2024.02.25"
 
+ghenv.Component.Name = "gol_2d"
+ghenv.Component.NickName = 'game_of_life_2d'
+
 import rhinoscriptsyntax as rs
 import random
 import ghpythonlib.treehelpers as th
